@@ -1,0 +1,104 @@
+html,body{
+    background-color:#161624;
+    height: 100%;
+    font-family: 'Microsoft Yahei','Pingfang','Helective';
+    /* width: 100%; */
+}
+/* .charts{
+    height:90%;
+    background-color: yellow;
+} */
+
+select {
+    cursor: pointer; 
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    -ms-appearance:none;
+
+    border:none;
+    width:100px;
+    /*自定义箭头的样式，记得背景一定要加 白色或其他*/
+    background-color: #1A1F3E;
+    background: url("../img/triangle.png") center center no-repeat;
+    background-size: cover;
+    /*ie下,原默认的箭头样式还是会显示，所以这里把自定义的样式给去除了*/
+    color: aquamarine;
+    padding:10px;
+    outline:none;
+    border-radius: 0%;
+}
+
+.nav .menu-item,
+#result{
+    font-size: 20px;
+    color: aquamarine; 
+}
+
+#result{
+    font-size: 16px;
+    color: aquamarine;
+    margin-top: 15px;
+}
+
+/* #result{
+ width:500px;
+ border:1px solid #CCCCCC;
+ background:#FFFFCC;
+ margin:50px auto;
+ font-size:24px;
+ color:#FF0000;
+ padding:20px;
+} */
+
+.field{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    width: 95%;
+}
+
+.line3 #experience
+{
+    padding-right:0 px !important;
+    padding-left:0 px !important;
+}
+
+.table td{
+    color: white;
+}
+
+
+.table .guide,
+.table .num{
+    color: aquamarine;
+}
+
+.rank{
+    background-color:#1A1F3E;
+}
+/* .table .td{
+    line-height: 1;
+}
+
+.table .td{
+    line-height: 1;
+} */
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+ line-height: 1.4;
+}
+
+.caption{
+    font-size: 14px;
+}
+
